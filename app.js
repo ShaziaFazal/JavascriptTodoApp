@@ -16,8 +16,6 @@ function addMore(e) {
     if (title) {
         datalist.push(title);
     }
-
-    // clear input
     document.getElementById('title').value = " ";
     getData();
 }
