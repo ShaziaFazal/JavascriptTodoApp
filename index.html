@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body class="bg-dark">
+    <div class="container my-5">
+        <div class="card bg-light text-dark p-4 m-auto w-50">
+            <span>
+                <h3>TODO APP</h3>
+            </span>
+            <span id="error"> </span>
+            <div class="input-group mb-3">
+                <input type="text" id="title" class="form-control input" placeholder="New Title"
+                    aria-describedby="button-addon2">
+                <button type="submit" class="btn btn-success ml-4" onclick="addMore()">Add</button>
+                <button type="submit" class="btn btn-warning" style="margin:0 20px " onclick="update()">Update</button>
+
+            </div>
+            <ul id="collection"></ul>
+
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
